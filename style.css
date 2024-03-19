@@ -1,0 +1,55 @@
+
+
+header{
+    padding: 2em auto;
+}
+
+main{
+    width: 940px;
+}
+.contenedor-texto{
+    display: inline-block;
+}
+#contenedor-texto-ingresado{
+    width: 60%;
+    background: red;
+}
+#texto-ingresado{
+    width: 80%;
+    resize: none;
+    border: none;
+    margin: 10px 5% 10px 10%;
+}
+
+#texto-ingresado:focus{
+    outline:none;
+} 
+
+#contenedor-texto-procesado{
+    width: 40%;
+    background: blue;
+}
+
+#texto-procesado{
+    width: 90%;
+    margin: 10px auto;
+    background: lavender;
+}
+
+
+
+
+
+
+#contenedor-botones{
+    width: 55%;
+    padding: 10px 5% 10px 8%;
+    background: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+}

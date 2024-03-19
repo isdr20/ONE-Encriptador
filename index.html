@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css"> 
     <script src="app.js"></script>
 </head>
 <body>
@@ -13,7 +14,7 @@
     </header>
 
     <main>
-        <section id="Contenedor-texto-ingresado">
+        <section id="contenedor-texto-ingresado" class="contenedor-texto">
             <form action="">
                 <!-- <input type="text"> -->
                 <textarea name="texto-ingresado" id="texto-ingresado" cols="30" rows="10">Ingrese el texto aqui </textarea>
@@ -21,20 +22,20 @@
             </form>
         </section>
 
-        <section id="Contenedor-texto-procesado">
-            <form action="">
-                <!-- <input type="text"> -->
-                <textarea name="texto-procesado" id="texto-procesado" cols="30" rows="10">Ingrese el texto aqui </textarea>
-            </form>
+        <section id="contenedor-texto-procesado" class="contenedor-texto">
+            <div name="texto-procesado" id="texto-procesado">
+                <p >Ningun elemento fue encontrado</p>
+                <p>ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+
+                
         </section>
 
-        <section id="Contenedor-texto-original">
+        <section id="contenedor-botones">
             <input type="button" value="Encriptar">
             <input type="button" value="Desencriptar">
 
         </section>
-
-
 
     </main>
 

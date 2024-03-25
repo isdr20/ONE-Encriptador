@@ -1,9 +1,7 @@
 <h1>Proyecto ONE: Encriptador</h1>
 
--Estado del Proyeecto: En construcción.
+-Estado del Proyecto: Terminado
 
 Librerias a usar en el proyecto:
 
-```phaser 3.1```
-
-Sistema de prueba 1
+```crypto-js```
